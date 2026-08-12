@@ -47,14 +47,14 @@ int main(){
 
     printf("Enter 10 numbers:\n");
     for(int i=0;i<10;i++){
-        scanf("%d",&arr[i]);
+        scanf("%d ",&arr[i]);
     }
 
     quick_sort(arr,0,9);
 
     printf("Sorted array:\n");
     for(int i=0;i<10;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
 
     return 0;
